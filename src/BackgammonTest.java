@@ -19,12 +19,20 @@ public class BackgammonTest {
                 !hitBlackManShouldGoToBar() ||
                 !shouldOkMoveToSameColorMan() ||
                 !shouldOkMoveToEmptySpace() ||
-                hitWhiteManShouldGoToBarFromEmptySpace())
+                hitWhiteManShouldGoToBarFromEmptySpace()
+        )
         {
             System.out.println("BUG");
         } else {
             System.out.println("CORRECT");
         }
+
+//        BackgammonBoard board = setupBoard();
+//        System.out.println(board.getPointCount(0));
+//        System.out.println(board.getPointCount(5));
+//        System.out.println(board.getPointCount(7));
+//        board.move(0, -1);
+//        board.move(-1, 3);
     }
 
     // Test whether we can move man to empty space correctly

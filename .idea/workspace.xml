@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9701bce1-734f-44a5-ae71-8f732947516c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackgammonBoard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SourceCode/BackgammonBoard.class" afterPath="$PROJECT_DIR$/out/production/SourceCode/BackgammonBoard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SourceCode/BackgammonTest.class" afterPath="$PROJECT_DIR$/out/production/SourceCode/BackgammonTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SourceCode/Greetings.class" afterPath="$PROJECT_DIR$/out/production/SourceCode/Greetings.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BackgammonTest.java" afterPath="$PROJECT_DIR$/src/BackgammonTest.java" />
     </list>
     <ignored path="SourceCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,22 +27,13 @@
     <favorites_list name="SourceCode" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="BackgammonTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BackgammonTest.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Greetings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Greetings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-              <folding>
-                <element signature="method#shouldOkMoveToSameColorMan#0;class#BackgammonTest#0" expanded="false" />
-                <element signature="method#shouldNotMoveMoreThanSixPoints#0;class#BackgammonTest#0" expanded="false" />
-                <element signature="method#shouldNotMoveToPointWithMoreThanOneOpponent#0;class#BackgammonTest#0" expanded="false" />
-                <element signature="method#hitWhiteManShouldGoToBarFromEmptySpace#0;class#BackgammonTest#0" expanded="false" />
-                <element signature="method#shouldNotMovePointOutside23#0;class#BackgammonTest#0" expanded="false" />
-                <element signature="method#whiteManShouldNotMoveAntiClockwise#0;class#BackgammonTest#0" expanded="false" />
-                <element signature="method#blackManShouldNotMoveClockwise#0;class#BackgammonTest#0" expanded="false" />
-                <element signature="method#hitBlackManShouldGoToBar#0;class#BackgammonTest#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,13 +60,14 @@
         <option value="$PROJECT_DIR$/src/CodingExample.java" />
         <option value="$PROJECT_DIR$/src/lab01.java" />
         <option value="$PROJECT_DIR$/src/Numbers.java" />
-        <option value="$PROJECT_DIR$/src/Greetings.java" />
         <option value="$PROJECT_DIR$/src/PlaceOrder.java" />
         <option value="$PROJECT_DIR$/src/Primes.java" />
         <option value="$PROJECT_DIR$/src/TreeConstruction.java" />
-        <option value="$PROJECT_DIR$/src/BackgammonBoard.java" />
         <option value="$PROJECT_DIR$/src/BackgammonBoardInit.java" />
         <option value="$PROJECT_DIR$/src/BackgammonTest.java" />
+        <option value="$PROJECT_DIR$/out/production/SourceCode/Greetings.class" />
+        <option value="$PROJECT_DIR$/src/BackgammonBoard.java" />
+        <option value="$PROJECT_DIR$/src/Greetings.java" />
       </list>
     </option>
   </component>
@@ -82,10 +79,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-305" />
-    <option name="y" value="-1057" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -143,7 +138,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -229,13 +224,14 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/SourceCode" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BackgammonTest">
+  <component name="RunManager" selected="Application.Greetings">
     <configuration default="false" name="Greetings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Greetings" />
@@ -377,10 +373,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BackgammonTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Primes" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PlaceOrder" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Greetings" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Greetings" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BackgammonTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Primes" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PlaceOrder" />
         <item index="4" class="java.lang.String" itemvalue="Application.Numbers" />
       </list>
     </recent_temporary>
@@ -392,28 +388,28 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-305" y="-1057" width="1920" height="1057" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16953126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32793522" sideWeight="0.49479166" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32793522" sideWeight="0.5052083" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984064" sideWeight="0.53515625" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32669324" sideWeight="0.465625" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29216468" sideWeight="0.4875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29083666" sideWeight="0.43984374" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997344" sideWeight="0.4875" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984064" sideWeight="0.46484375" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -433,9 +429,28 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BackgammonTest.java</url>
+          <line>120</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BackgammonTest.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="18" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="getPointBlack(fromPoint)" language="JAVA" />
+        <watch expression="man[toPoint]" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -448,12 +463,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#shouldOkMoveToSameColorMan#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#shouldNotMoveMoreThanSixPoints#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#shouldNotMoveToPointWithMoreThanOneOpponent#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#hitWhiteManShouldGoToBarFromEmptySpace#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#shouldNotMovePointOutside23#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#whiteManShouldNotMoveAntiClockwise#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#blackManShouldNotMoveClockwise#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#hitBlackManShouldGoToBar#0;class#BackgammonTest#0" expanded="false" />
           </folding>
         </state>
@@ -465,12 +477,50 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#shouldOkMoveToSameColorMan#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#shouldNotMoveMoreThanSixPoints#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#shouldNotMoveToPointWithMoreThanOneOpponent#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#hitWhiteManShouldGoToBarFromEmptySpace#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#shouldNotMovePointOutside23#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#whiteManShouldNotMoveAntiClockwise#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#blackManShouldNotMoveClockwise#0;class#BackgammonTest#0" expanded="false" />
+            <element signature="method#hitBlackManShouldGoToBar#0;class#BackgammonTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackgammonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="method#shouldOkMoveToSameColorMan#0;class#BackgammonTest#0" expanded="false" />
+            <element signature="method#shouldNotMoveToPointWithMoreThanOneOpponent#0;class#BackgammonTest#0" expanded="false" />
+            <element signature="method#hitWhiteManShouldGoToBarFromEmptySpace#0;class#BackgammonTest#0" expanded="false" />
+            <element signature="method#whiteManShouldNotMoveAntiClockwise#0;class#BackgammonTest#0" expanded="false" />
+            <element signature="method#hitBlackManShouldGoToBar#0;class#BackgammonTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackgammonBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#BackgammonBoard#0;class#BackgammonBoard#0" expanded="false" />
+            <element signature="method#getPointCount#0;class#BackgammonBoard#0" expanded="false" />
+            <element signature="method#getPointBlack#0;class#BackgammonBoard#0" expanded="false" />
+            <element signature="method#setPoint#0;class#BackgammonBoard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackgammonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#shouldOkMoveToSameColorMan#0;class#BackgammonTest#0" expanded="false" />
+            <element signature="method#shouldNotMoveToPointWithMoreThanOneOpponent#0;class#BackgammonTest#0" expanded="false" />
+            <element signature="method#hitWhiteManShouldGoToBarFromEmptySpace#0;class#BackgammonTest#0" expanded="false" />
+            <element signature="method#whiteManShouldNotMoveAntiClockwise#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#hitBlackManShouldGoToBar#0;class#BackgammonTest#0" expanded="false" />
           </folding>
         </state>
@@ -482,12 +532,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#shouldOkMoveToSameColorMan#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#shouldNotMoveMoreThanSixPoints#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#shouldNotMoveToPointWithMoreThanOneOpponent#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#hitWhiteManShouldGoToBarFromEmptySpace#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#shouldNotMovePointOutside23#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#whiteManShouldNotMoveAntiClockwise#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#blackManShouldNotMoveClockwise#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#hitBlackManShouldGoToBar#0;class#BackgammonTest#0" expanded="false" />
           </folding>
         </state>
@@ -499,12 +546,37 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#shouldOkMoveToSameColorMan#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#shouldNotMoveMoreThanSixPoints#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#shouldNotMoveToPointWithMoreThanOneOpponent#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#hitWhiteManShouldGoToBarFromEmptySpace#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#shouldNotMovePointOutside23#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#whiteManShouldNotMoveAntiClockwise#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#blackManShouldNotMoveClockwise#0;class#BackgammonTest#0" expanded="false" />
+            <element signature="method#hitBlackManShouldGoToBar#0;class#BackgammonTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackgammonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#shouldOkMoveToSameColorMan#0;class#BackgammonTest#0" expanded="false" />
+            <element signature="method#shouldNotMoveToPointWithMoreThanOneOpponent#0;class#BackgammonTest#0" expanded="false" />
+            <element signature="method#hitWhiteManShouldGoToBarFromEmptySpace#0;class#BackgammonTest#0" expanded="false" />
+            <element signature="method#whiteManShouldNotMoveAntiClockwise#0;class#BackgammonTest#0" expanded="false" />
+            <element signature="method#hitBlackManShouldGoToBar#0;class#BackgammonTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackgammonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#shouldOkMoveToSameColorMan#0;class#BackgammonTest#0" expanded="false" />
+            <element signature="method#shouldNotMoveToPointWithMoreThanOneOpponent#0;class#BackgammonTest#0" expanded="false" />
+            <element signature="method#hitWhiteManShouldGoToBarFromEmptySpace#0;class#BackgammonTest#0" expanded="false" />
+            <element signature="method#whiteManShouldNotMoveAntiClockwise#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#hitBlackManShouldGoToBar#0;class#BackgammonTest#0" expanded="false" />
           </folding>
         </state>
@@ -517,12 +589,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#shouldOkMoveToSameColorMan#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#shouldNotMoveMoreThanSixPoints#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#shouldNotMoveToPointWithMoreThanOneOpponent#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#hitWhiteManShouldGoToBarFromEmptySpace#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#shouldNotMovePointOutside23#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#whiteManShouldNotMoveAntiClockwise#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#blackManShouldNotMoveClockwise#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#hitBlackManShouldGoToBar#0;class#BackgammonTest#0" expanded="false" />
           </folding>
         </state>
@@ -535,12 +604,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#shouldOkMoveToSameColorMan#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#shouldNotMoveMoreThanSixPoints#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#shouldNotMoveToPointWithMoreThanOneOpponent#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#hitWhiteManShouldGoToBarFromEmptySpace#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#shouldNotMovePointOutside23#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#whiteManShouldNotMoveAntiClockwise#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#blackManShouldNotMoveClockwise#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#hitBlackManShouldGoToBar#0;class#BackgammonTest#0" expanded="false" />
           </folding>
         </state>
@@ -724,13 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Greetings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TreeConstruction.java" />
     <entry file="file://$PROJECT_DIR$/src/Primes.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -747,20 +806,53 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BackgammonBoardInit.java" />
+    <entry file="file://$PROJECT_DIR$/out/production/SourceCode/Greetings.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackgammonBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="method#BackgammonBoard#0;class#BackgammonBoard#0" expanded="false" />
+            <element signature="method#getPointCount#0;class#BackgammonBoard#0" expanded="false" />
+            <element signature="method#getPointBlack#0;class#BackgammonBoard#0" expanded="false" />
+            <element signature="method#setPoint#0;class#BackgammonBoard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BackgammonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
           <folding>
             <element signature="method#shouldOkMoveToSameColorMan#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#shouldNotMoveMoreThanSixPoints#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#shouldNotMoveToPointWithMoreThanOneOpponent#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#hitWhiteManShouldGoToBarFromEmptySpace#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#shouldNotMovePointOutside23#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#whiteManShouldNotMoveAntiClockwise#0;class#BackgammonTest#0" expanded="false" />
-            <element signature="method#blackManShouldNotMoveClockwise#0;class#BackgammonTest#0" expanded="false" />
             <element signature="method#hitBlackManShouldGoToBar#0;class#BackgammonTest#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/SourceCode/BackgammonBoard.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greetings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
