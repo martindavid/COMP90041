@@ -21,6 +21,12 @@ All of source code available in `src` folder. `out` folder is a compiled version
 #### Assessed Lab 4 solution
 * BackgammonBoard.java
 
+### Assessed Lab 5 solution
+* Shape.java
+* Circle.java
+* Rectangle.java
+* ShapeTest.java
+
 #### Final Project
 * CribbageCard.java
 * CribbageRank.java
