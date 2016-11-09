@@ -90,6 +90,7 @@ public class BackgammonBoard {
         else if (!getPointBlack(fromPoint) && getPointBlack(toPoint) && getPointCount(toPoint) == 1){
             man[fromPoint]--;
             color[toPoint] = WHITE_MAN;
+
             // Need to subtract by 1 because we use value 1 for mark Black man
             bar[BLACK_MAN - 1] += 1;
         }
@@ -129,6 +130,7 @@ public class BackgammonBoard {
         }
 
         // Man can only move to a point where has the same color or it's only occupied by one opponents man
+        // TODO: this logic can be refactored
         if ((getPointBlack(fromPoint) && !getPointBlack(toPoint) && getPointCount(toPoint) > 1) ||
                 (!getPointBlack(fromPoint) && getPointBlack(toPoint) && getPointCount(toPoint) > 1)){
             return false;
